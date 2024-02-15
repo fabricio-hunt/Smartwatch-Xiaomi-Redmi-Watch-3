@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    margin: 0;
+    padding: 0;
+    border: 5px solid gold;
+}
+
+.main-container .secao-0{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.main-container .secao-0 h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    position: absolute;
+}
+
+.main-container .secao-0 .grid__img-1{
+    max-width: 100%;
+    height: auto;
+}
+ 
+.main-container .secao-0 h3{
+    color: #97DD96;
+    font-size: 2.3rem;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: 500;
+
+}
