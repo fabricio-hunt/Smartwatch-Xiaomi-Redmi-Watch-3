@@ -6,7 +6,6 @@ body{
 .main-container{
     margin: 0;
     padding: 0;
-    border: 5px solid gold;
 }
 
 .main-container .secao-0{
@@ -36,5 +35,40 @@ body{
     font-family: "Roboto", sans-serif;
     text-align: center;
     font-weight: 500;
+}
 
+.main-container .secao-1{
+    display: flex;
+    justify-content: center;
+}
+
+.main-container .secao-1 img{
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+.main-container .secao-2{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    margin-top: 150px;
+    box-sizing: border-box;
+}
+
+.main-container .secao-2 p{
+    color: #EA8B4C;
+    font-size: 4rem;
+    position: absolute;
+    width: 70%;
+    font-weight: 500;
+    overflow-wrap: break-word;
+}
+
+.main-container .secao-2 img{
+    max-width: 100%;
+    height: auto;
+    display: flex;
 }
