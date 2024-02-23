@@ -87,9 +87,30 @@ body{
     line-height: 1.3rem;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-
 }
 
+.main-container .info-1{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 120px;
+   
+}
+.main-container .grid-text-info{
+    text-align: center;
+}
+
+.main-container .grid-text-info p{
+    display: inline-block;
+    font-size: 2rem;
+    color: #EA8B4C;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-container .grid-text-info span{
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
 
 @media screen and (max-width: 768px) {
     .main-container .secao-2 p {
